@@ -1,0 +1,9 @@
+.mainPage {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+    background: #dc9fae;
+}

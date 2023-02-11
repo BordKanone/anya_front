@@ -1,0 +1,48 @@
+.bear {
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    transition: .5s ease-in-out;
+}
+
+.bearIcon {
+    width: 464px;
+    height: 244px;
+    background-size: contain;
+    background-image: url("./src/assets/bear-right.png");
+    background-repeat: no-repeat;
+    animation-duration: 10s;
+    animation-name: slidein;
+}
+
+.bearSeat {
+    height: 244px;
+    width: 464px;
+    background-size: contain;
+    background-image: url("./src/assets/bear-seat.png");
+    background-repeat: no-repeat;
+}
+
+.bearPopup {
+    position: relative;
+    width: 120px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bearPopupContainer {
+    position: absolute;
+    content: '';
+    width: 120px;
+    height: 50px;
+    z-index: -1;
+    border: 1px darkred solid;
+    border-radius: 20px;
+    padding: 10px;
+    transform: translate(-210px, -100px);
+}
