@@ -6,24 +6,7 @@
     justify-content: center;
     align-items: center;
     transition: .5s ease-in-out;
-}
-
-.bearIcon {
-    width: 464px;
-    height: 244px;
-    background-size: contain;
-    background-image: url("./src/assets/bear-right.png");
-    background-repeat: no-repeat;
-    animation-duration: 10s;
-    animation-name: slidein;
-}
-
-.bearSeat {
-    height: 244px;
-    width: 464px;
-    background-size: contain;
-    background-image: url("./src/assets/bear-seat.png");
-    background-repeat: no-repeat;
+    transform: translateX(120px);
 }
 
 .bearPopup {

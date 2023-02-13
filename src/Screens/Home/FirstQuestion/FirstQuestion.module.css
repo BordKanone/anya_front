@@ -1,0 +1,81 @@
+.firstModule {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 450px;
+    height: 100%;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.itemCheckbox {
+    width: 16px;
+    height: 16px;
+}
+
+.itemTitle {
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.emailButtonsContainer {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 6px;
+}
+
+.emailButtonSucces {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    align-items: center;
+    height: 50px;
+    border-radius: 20px;
+    font-weight: 700;
+    color: #eddadf;
+    background: #d90378;
+    cursor: pointer;
+}
+
+.emailButtonSucces:hover {
+    background: #800247;
+}
+
+.emailButtonError {
+    width: 100%;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 20px;
+    font-weight: 700;
+    color: #eddadf;
+    background: #4f4e4e;
+    cursor: pointer;
+}
+
+.emailButtonError:hover {
+    background: #373737;
+}

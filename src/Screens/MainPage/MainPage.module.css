@@ -5,5 +5,99 @@
     flex-wrap: wrap;
     height: 100vh;
     width: 100%;
-    background: #dc9fae;
+    background: url("src/assets/back.jpg");
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+
+.kustContainer {
+    position: relative;
+    width: 100%;
+    height: 1px;
+    z-index: 1;
+}
+
+.flowContainer {
+    position: relative;
+    width: 100%;
+    height: 1px;
+    z-index: 1;
+}
+
+.threeContainer {
+    position: relative;
+    width: 100%;
+    height: 1px;
+    z-index: 1;
+}
+
+.kust {
+    top: -134px;
+    position: absolute;
+    z-index: 1;
+    left: -85px;
+    background: url("src/assets/kust.png");
+    background-repeat: repeat-x;
+    background-size: contain;
+    width: 200%;
+    height: 150px;
+}
+
+.kustTwo {
+    top: -134px;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+    background: url("src/assets/kust.png");
+    background-repeat: repeat-x;
+    background-size: contain;
+    width: 100%;
+    height: 150px;
+}
+
+.flow {
+    top: -164px;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+    background: url("src/assets/flow.png");
+    background-repeat: repeat-x;
+    background-size: contain;
+    width: 100%;
+    height: 150px;
+}
+
+.threeOne {
+    top: -864px;
+    left: -150px;
+    position: absolute;
+    z-index: 1;
+    background: url("src/assets/three.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 736px;
+    height: 988px;
+}
+
+@media screen and (max-width: 425px) {
+    .threeOne {
+        left: 140px;
+    }
+
+    .threeTwo {
+        right: 210px;
+    }
+}
+
+.threeTwo {
+    top: -564px;
+    right: 170px;
+    position: absolute;
+    z-index: 1;
+    background: url("src/assets/three2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 436px;
+    height: 688px;
 }
